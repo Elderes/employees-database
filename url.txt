@@ -1,0 +1,1 @@
+postgresql://postgres:%40Abrao337@localhost:5432/empresa-gerenciador

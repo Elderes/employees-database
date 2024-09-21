@@ -1,0 +1,120 @@
+INSERT INTO calendariodeeventos (data,tipo)
+VALUES
+  ('2025-05-10','Esporte'),
+  ('2024-06-13','Jantar'),
+  ('2024-04-18','Lanche'),
+  ('2025-04-02','Aniversario'),
+  ('2025-06-21','Jantar'),
+  ('2024-07-31','Jantar'),
+  ('2024-07-30','Esporte'),
+  ('2025-03-18','Almoço'),
+  ('2023-10-01','Aniversario'),
+  ('2024-11-10','Lanche');
+INSERT INTO calendariodeeventos (data,tipo)
+VALUES
+  ('2024-04-04','Jantar'),
+  ('2024-06-21','Esporte'),
+  ('2025-03-04','Jantar'),
+  ('2025-04-06','Almoço'),
+  ('2024-02-09','Aniversario'),
+  ('2023-11-10','Folga'),
+  ('2025-01-26','Lanche'),
+  ('2025-04-04','Almoço'),
+  ('2024-07-23','Almoço'),
+  ('2025-04-02','Almoço');
+INSERT INTO calendariodeeventos (data,tipo)
+VALUES
+  ('2023-11-08','Reuniao'),
+  ('2025-04-14','Almoço'),
+  ('2024-07-13','Jantar'),
+  ('2025-03-16','Aniversario'),
+  ('2023-12-20','Reuniao'),
+  ('2025-01-28','Folga'),
+  ('2024-04-03','Jantar'),
+  ('2024-10-05','Esporte'),
+  ('2025-07-21','Esporte'),
+  ('2025-08-21','Lanche');
+INSERT INTO calendariodeeventos (data,tipo)
+VALUES
+  ('2024-01-18','Aniversario'),
+  ('2024-06-28','Jantar'),
+  ('2024-01-01','Lanche'),
+  ('2025-05-21','Aniversario'),
+  ('2024-10-23','Jantar'),
+  ('2024-09-11','Esporte'),
+  ('2024-12-11','Almoço'),
+  ('2024-09-07','Lanche'),
+  ('2024-02-28','Almoço'),
+  ('2025-05-22','Almoço');
+INSERT INTO calendariodeeventos (data,tipo)
+VALUES
+  ('2024-07-07','Esporte'),
+  ('2024-05-20','Lanche'),
+  ('2024-06-28','Jantar'),
+  ('2025-05-15','Almoço'),
+  ('2023-12-07','Almoço'),
+  ('2024-12-08','Jantar'),
+  ('2023-12-31','Lanche'),
+  ('2025-07-19','Jantar'),
+  ('2025-08-17','Lanche'),
+  ('2024-09-23','Esporte');
+INSERT INTO calendariodeeventos (data,tipo)
+VALUES
+  ('2024-03-17','Lanche'),
+  ('2023-11-26','Aniversario'),
+  ('2025-05-16','Lanche'),
+  ('2024-10-26','Aniversario'),
+  ('2025-04-18','Almoço'),
+  ('2025-07-01','Jantar'),
+  ('2024-11-18','Lanche'),
+  ('2023-10-27','Almoço'),
+  ('2024-02-05','Lanche'),
+  ('2024-12-18','Lanche');
+INSERT INTO calendariodeeventos (data,tipo)
+VALUES
+  ('2025-06-29','Almoço'),
+  ('2025-01-31','Lanche'),
+  ('2025-07-19','Aniversario'),
+  ('2025-08-26','Almoço'),
+  ('2025-03-20','Esporte'),
+  ('2025-06-15','Aniversario'),
+  ('2024-06-25','Folga'),
+  ('2025-08-29','Aniversario'),
+  ('2024-04-13','Almoço'),
+  ('2024-06-12','Almoço');
+INSERT INTO calendariodeeventos (data,tipo)
+VALUES
+  ('2025-08-04','Jantar'),
+  ('2025-07-07','Reuniao'),
+  ('2023-10-05','Esporte'),
+  ('2024-06-12','Lanche'),
+  ('2025-08-20','Esporte'),
+  ('2025-03-18','Folga'),
+  ('2025-03-03','Aniversario'),
+  ('2024-12-27','Jantar'),
+  ('2025-06-02','Folga'),
+  ('2024-05-20','Folga');
+INSERT INTO calendariodeeventos (data,tipo)
+VALUES
+  ('2024-05-12','Esporte'),
+  ('2024-02-02','Reuniao'),
+  ('2025-01-26','Lanche'),
+  ('2023-11-29','Folga'),
+  ('2025-05-26','Almoço'),
+  ('2024-09-02','Reuniao'),
+  ('2024-04-05','Almoço'),
+  ('2024-02-27','Aniversario'),
+  ('2024-11-15','Lanche'),
+  ('2024-02-28','Aniversario');
+INSERT INTO calendariodeeventos (data,tipo)
+VALUES
+  ('2024-12-23','Reuniao'),
+  ('2025-07-10','Jantar'),
+  ('2025-04-25','Folga'),
+  ('2025-06-07','Almoço'),
+  ('2025-04-24','Aniversario'),
+  ('2025-07-27','Aniversario'),
+  ('2024-09-30','Aniversario'),
+  ('2024-06-09','Jantar'),
+  ('2023-12-09','Lanche'),
+  ('2024-01-25','Aniversario');

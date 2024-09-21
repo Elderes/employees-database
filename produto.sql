@@ -1,0 +1,120 @@
+INSERT INTO produto (nome,categoria,validade,quantidade,fornecedor_id)
+VALUES
+  ('Alimento','Industrial','2024-07-10',18,9),
+  ('Alimento','Material','2024-05-30',32,97),
+  ('Alimento','Comercial','2025-05-27',16,69),
+  ('Pedra','Material','2025-07-30',6,89),
+  ('Vestimenta','Industrial','2024-08-12',40,9),
+  ('Cobre','Comercial','2024-03-10',48,20),
+  ('Cobre','Industrial','2025-03-25',39,29),
+  ('Pedra','Comercial','2025-01-09',42,70),
+  ('Arte','Industrial','2025-02-15',6,62),
+  ('Orgânico','Industrial','2024-09-03',18,44);
+INSERT INTO produto (nome,categoria,validade,quantidade,fornecedor_id)
+VALUES
+  ('Madeira','Industrial','2023-12-07',18,60),
+  ('Madeira','Serviços','2023-10-15',35,41),
+  ('Alimento','Industrial','2024-07-09',4,44),
+  ('Pedra','Industrial','2023-11-08',10,60),
+  ('Cobre','Comercial','2023-11-16',24,28),
+  ('Software','Material','2024-07-05',20,15),
+  ('Madeira','Material','2024-11-28',27,51),
+  ('Pedra','Industrial','2024-11-17',10,35),
+  ('Orgânico','Industrial','2024-06-30',22,94),
+  ('Eletrônico','Comercial','2024-05-06',50,57);
+INSERT INTO produto (nome,categoria,validade,quantidade,fornecedor_id)
+VALUES
+  ('Pedra','Material','2025-07-04',20,26),
+  ('Higiene','Industrial','2024-02-05',10,69),
+  ('Madeira','Material','2024-09-11',41,35),
+  ('Pedra','Comercial','2023-11-10',45,16),
+  ('Eletrônico','Comercial','2024-12-04',44,79),
+  ('Cobre','Industrial','2024-04-19',17,92),
+  ('Pedra','Industrial','2025-06-11',21,19),
+  ('Arte','Comercial','2025-08-29',43,90),
+  ('Vestimenta','Comercial','2024-01-15',16,69),
+  ('Vestimenta','Serviços','2023-12-03',46,8);
+INSERT INTO produto (nome,categoria,validade,quantidade,fornecedor_id)
+VALUES
+  ('Orgânico','Industrial','2025-06-19',24,81),
+  ('Alimento','Material','2024-01-11',21,62),
+  ('Eletrônico','Serviços','2024-06-29',37,39),
+  ('Orgânico','Comercial','2025-05-27',7,14),
+  ('Vestimenta','Material','2023-11-21',6,46),
+  ('Pedra','Serviços','2025-05-22',33,61),
+  ('Alimento','Industrial','2024-04-01',10,85),
+  ('Vestimenta','Serviços','2025-02-27',27,74),
+  ('Orgânico','Comercial','2025-03-23',30,5),
+  ('Madeira','Serviços','2023-11-21',34,50);
+INSERT INTO produto (nome,categoria,validade,quantidade,fornecedor_id)
+VALUES
+  ('Vestimenta','Comercial','2023-12-28',39,57),
+  ('Madeira','Comercial','2023-10-08',43,63),
+  ('Alimento','Material','2025-07-31',14,61),
+  ('Arte','Industrial','2023-10-11',15,76),
+  ('Arte','Material','2025-08-21',48,45),
+  ('Vestimenta','Material','2025-01-28',2,49),
+  ('Pedra','Comercial','2023-10-01',16,97),
+  ('Software','Industrial','2025-07-19',45,86),
+  ('Orgânico','Industrial','2023-09-25',4,21),
+  ('Madeira','Comercial','2024-03-18',21,88);
+INSERT INTO produto (nome,categoria,validade,quantidade,fornecedor_id)
+VALUES
+  ('Vestimenta','Comercial','2025-08-19',7,17),
+  ('Arte','Serviços','2023-10-22',47,68),
+  ('Pedra','Industrial','2024-09-06',40,83),
+  ('Orgânico','Serviços','2025-06-05',9,18),
+  ('Vestimenta','Serviços','2024-09-14',8,87),
+  ('Pedra','Comercial','2024-10-07',21,42),
+  ('Pedra','Comercial','2024-09-26',8,66),
+  ('Vestimenta','Material','2025-03-15',9,12),
+  ('Vestimenta','Industrial','2023-12-31',33,5),
+  ('Madeira','Industrial','2025-09-05',9,57);
+INSERT INTO produto (nome,categoria,validade,quantidade,fornecedor_id)
+VALUES
+  ('Pedra','Comercial','2024-05-15',3,99),
+  ('Arte','Industrial','2025-08-09',18,71),
+  ('Pedra','Serviços','2023-10-30',17,46),
+  ('Orgânico','Industrial','2024-05-26',43,75),
+  ('Software','Industrial','2024-11-25',30,5),
+  ('Madeira','Industrial','2025-04-04',17,8),
+  ('Higiene','Industrial','2024-01-05',39,67),
+  ('Alimento','Industrial','2025-01-31',37,94),
+  ('Eletrônico','Industrial','2025-08-31',30,12),
+  ('Alimento','Comercial','2024-07-24',33,33);
+INSERT INTO produto (nome,categoria,validade,quantidade,fornecedor_id)
+VALUES
+  ('Vestimenta','Industrial','2023-12-27',44,17),
+  ('Cobre','Material','2024-05-15',18,36),
+  ('Orgânico','Material','2025-08-19',18,48),
+  ('Alimento','Comercial','2024-01-06',46,57),
+  ('Alimento','Industrial','2024-11-05',27,81),
+  ('Higiene','Material','2024-11-23',16,45),
+  ('Higiene','Industrial','2024-06-03',12,85),
+  ('Alimento','Serviços','2024-03-27',4,91),
+  ('Alimento','Comercial','2025-05-08',35,30),
+  ('Software','Serviços','2024-07-20',26,60);
+INSERT INTO produto (nome,categoria,validade,quantidade,fornecedor_id)
+VALUES
+  ('Alimento','Serviços','2024-03-08',35,23),
+  ('Alimento','Comercial','2023-09-22',10,67),
+  ('Orgânico','Industrial','2024-02-11',36,98),
+  ('Alimento','Industrial','2023-10-21',29,8),
+  ('Alimento','Material','2024-07-27',35,63),
+  ('Pedra','Serviços','2025-07-25',25,88),
+  ('Alimento','Industrial','2024-03-03',9,56),
+  ('Arte','Comercial','2024-06-23',6,38),
+  ('Vestimenta','Comercial','2025-06-06',21,31),
+  ('Pedra','Industrial','2025-09-15',25,37);
+INSERT INTO produto (nome,categoria,validade,quantidade,fornecedor_id)
+VALUES
+  ('Madeira','Serviços','2024-11-04',13,25),
+  ('Arte','Serviços','2025-07-08',44,23),
+  ('Pedra','Material','2024-07-24',27,40),
+  ('Vestimenta','Industrial','2023-11-14',20,61),
+  ('Higiene','Serviços','2024-05-10',31,80),
+  ('Orgânico','Material','2024-06-14',25,8),
+  ('Madeira','Industrial','2024-08-19',37,91),
+  ('Higiene','Serviços','2025-05-22',39,55),
+  ('Orgânico','Material','2023-10-07',49,27),
+  ('Eletrônico','Industrial','2025-04-05',47,88);
