@@ -1,11 +1,11 @@
--- Criação da tabela Funcionário
+-- Criação da tabela Funcionario
 CREATE TABLE Funcionario (
-    id SERIAL PRIMARY KEY, -- SERIAL substitui AUTO_INCREMENT no PostgreSQL
+    id SERIAL PRIMARY KEY,
     nome VARCHAR(100) NOT NULL,
     email VARCHAR(100) UNIQUE NOT NULL,
     data_ingresso DATE NOT NULL,
     cargo VARCHAR(50) NOT NULL,
-    salario NUMERIC(10, 2) NOT NULL -- NUMERIC é preferido em PostgreSQL para precisão em decimais
+    salario NUMERIC(10, 2) NOT NULL
 );
 
 -- Criação da tabela Fornecedor
@@ -26,13 +26,13 @@ CREATE TABLE Produto (
 );
 
 -- Relacionamento entre Fornecedor e Produto (Fornece)
--- Um fornecedor pode fornecer muitos produtos e um produto tem um único fornecedor
 ALTER TABLE Produto
 ADD fornecedor_id INT,
 ADD CONSTRAINT fk_fornecedor FOREIGN KEY (fornecedor_id) REFERENCES Fornecedor(id);
 
 -- Criação da tabela Calendário de Eventos
-CREATE TYPE convocacao_enum AS ENUM ('Obrigatória', 'Opcional'); -- PostgreSQL usa ENUM como tipo de dado
+CREATE TYPE convocacao_enum AS ENUM ('Obrigatória', 'Opcional');
+
 CREATE TABLE CalendarioDeEventos (
     id SERIAL PRIMARY KEY,
     data DATE NOT NULL,

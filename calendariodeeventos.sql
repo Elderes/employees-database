@@ -1,120 +1,120 @@
-INSERT INTO calendariodeeventos (data,tipo)
+INSERT INTO calendariodeeventos (data,tipo,convocacao)
 VALUES
-  ('2025-05-10','Esporte'),
-  ('2024-06-13','Jantar'),
-  ('2024-04-18','Lanche'),
-  ('2025-04-02','Aniversario'),
-  ('2025-06-21','Jantar'),
-  ('2024-07-31','Jantar'),
-  ('2024-07-30','Esporte'),
-  ('2025-03-18','Almoço'),
-  ('2023-10-01','Aniversario'),
-  ('2024-11-10','Lanche');
-INSERT INTO calendariodeeventos (data,tipo)
+  ('2024-12-22','Sessao-de-Planejamento','Obrigatória'),
+  ('2024-06-22','Team-Building','Opcional'),
+  ('2023-12-20','Hackathon','Opcional'),
+  ('2025-05-05','Cerimonia-de-Premiacao','Obrigatória'),
+  ('2025-07-31','Entrevista','Opcional'),
+  ('2024-12-12','Sessao-de-Planejamento','Opcional'),
+  ('2024-10-26','Cerimonia-de-Premiacao','Opcional'),
+  ('2024-04-22','Sessao-de-Feedback','Obrigatória'),
+  ('2024-10-03','Team-Building','Obrigatória'),
+  ('2025-05-24','Palestra','Opcional');
+INSERT INTO calendariodeeventos (data,tipo,convocacao)
 VALUES
-  ('2024-04-04','Jantar'),
-  ('2024-06-21','Esporte'),
-  ('2025-03-04','Jantar'),
-  ('2025-04-06','Almoço'),
-  ('2024-02-09','Aniversario'),
-  ('2023-11-10','Folga'),
-  ('2025-01-26','Lanche'),
-  ('2025-04-04','Almoço'),
-  ('2024-07-23','Almoço'),
-  ('2025-04-02','Almoço');
-INSERT INTO calendariodeeventos (data,tipo)
+  ('2024-01-07','Workshop','Obrigatória'),
+  ('2023-11-03','Seminario','Obrigatória'),
+  ('2025-05-08','Entrevista','Obrigatória'),
+  ('2024-07-06','Mesa-Redonda','Obrigatória'),
+  ('2024-05-03','Festa-de-Confraternizacao','Opcional'),
+  ('2025-02-02','Networking','Obrigatória'),
+  ('2023-12-04','Sessao-de-Feedback','Opcional'),
+  ('2023-11-05','Sessao-de-Feedback','Opcional'),
+  ('2024-02-12','Hackathon','Opcional'),
+  ('2024-01-31','Conferencia','Obrigatória');
+INSERT INTO calendariodeeventos (data,tipo,convocacao)
 VALUES
-  ('2023-11-08','Reuniao'),
-  ('2025-04-14','Almoço'),
-  ('2024-07-13','Jantar'),
-  ('2025-03-16','Aniversario'),
-  ('2023-12-20','Reuniao'),
-  ('2025-01-28','Folga'),
-  ('2024-04-03','Jantar'),
-  ('2024-10-05','Esporte'),
-  ('2025-07-21','Esporte'),
-  ('2025-08-21','Lanche');
-INSERT INTO calendariodeeventos (data,tipo)
+  ('2024-05-28','Webinar','Obrigatória'),
+  ('2025-07-16','Comemoracao-de-Aniversario','Obrigatória'),
+  ('2024-12-20','Festa-de-Confraternizacao','Obrigatória'),
+  ('2023-11-10','Webinar','Opcional'),
+  ('2025-06-17','Conferencia','Opcional'),
+  ('2024-10-21','Conferencia','Opcional'),
+  ('2025-02-15','Entrevista','Obrigatória'),
+  ('2025-07-18','Conferencia','Opcional'),
+  ('2025-03-26','Lancamento-de-Produto','Obrigatória'),
+  ('2024-09-25','Conferencia','Obrigatória');
+INSERT INTO calendariodeeventos (data,tipo,convocacao)
 VALUES
-  ('2024-01-18','Aniversario'),
-  ('2024-06-28','Jantar'),
-  ('2024-01-01','Lanche'),
-  ('2025-05-21','Aniversario'),
-  ('2024-10-23','Jantar'),
-  ('2024-09-11','Esporte'),
-  ('2024-12-11','Almoço'),
-  ('2024-09-07','Lanche'),
-  ('2024-02-28','Almoço'),
-  ('2025-05-22','Almoço');
-INSERT INTO calendariodeeventos (data,tipo)
+  ('2024-07-26','Mesa-Redonda','Obrigatória'),
+  ('2025-01-01','Conferencia','Opcional'),
+  ('2025-01-23','Palestra','Obrigatória'),
+  ('2024-11-23','Cerimonia-de-Premiacao','Obrigatória'),
+  ('2023-11-24','Seminario','Obrigatória'),
+  ('2024-07-01','Entrevista','Obrigatória'),
+  ('2024-07-30','Hackathon','Obrigatória'),
+  ('2025-06-17','Palestra','Opcional'),
+  ('2025-05-16','Festa-de-Confraternizacao','Obrigatória'),
+  ('2024-08-24','Seminario','Obrigatória');
+INSERT INTO calendariodeeventos (data,tipo,convocacao)
 VALUES
-  ('2024-07-07','Esporte'),
-  ('2024-05-20','Lanche'),
-  ('2024-06-28','Jantar'),
-  ('2025-05-15','Almoço'),
-  ('2023-12-07','Almoço'),
-  ('2024-12-08','Jantar'),
-  ('2023-12-31','Lanche'),
-  ('2025-07-19','Jantar'),
-  ('2025-08-17','Lanche'),
-  ('2024-09-23','Esporte');
-INSERT INTO calendariodeeventos (data,tipo)
+  ('2024-05-03','Feira','Opcional'),
+  ('2024-01-01','Team-Building','Obrigatória'),
+  ('2024-03-13','Hackathon','Opcional'),
+  ('2024-08-26','Lancamento-de-Produto','Opcional'),
+  ('2024-05-28','Palestra','Obrigatória'),
+  ('2024-01-15','Team-Building','Opcional'),
+  ('2024-03-20','Entrevista','Obrigatória'),
+  ('2024-09-04','Treinamento','Opcional'),
+  ('2024-08-09','Cerimonia-de-Premiacao','Obrigatória'),
+  ('2024-11-23','Webinar','Opcional');
+INSERT INTO calendariodeeventos (data,tipo,convocacao)
 VALUES
-  ('2024-03-17','Lanche'),
-  ('2023-11-26','Aniversario'),
-  ('2025-05-16','Lanche'),
-  ('2024-10-26','Aniversario'),
-  ('2025-04-18','Almoço'),
-  ('2025-07-01','Jantar'),
-  ('2024-11-18','Lanche'),
-  ('2023-10-27','Almoço'),
-  ('2024-02-05','Lanche'),
-  ('2024-12-18','Lanche');
-INSERT INTO calendariodeeventos (data,tipo)
+  ('2024-11-16','Feira','Opcional'),
+  ('2023-12-18','Mesa-Redonda','Opcional'),
+  ('2025-07-02','Palestra','Obrigatória'),
+  ('2025-06-10','Mesa-Redonda','Obrigatória'),
+  ('2025-03-16','Lancamento-de-Produto','Obrigatória'),
+  ('2024-08-02','Feira','Opcional'),
+  ('2024-12-03','Hackathon','Obrigatória'),
+  ('2024-05-02','Conferencia','Obrigatória'),
+  ('2024-09-24','Seminario','Obrigatória'),
+  ('2024-03-18','Comemoracao-de-Aniversario','Opcional');
+INSERT INTO calendariodeeventos (data,tipo,convocacao)
 VALUES
-  ('2025-06-29','Almoço'),
-  ('2025-01-31','Lanche'),
-  ('2025-07-19','Aniversario'),
-  ('2025-08-26','Almoço'),
-  ('2025-03-20','Esporte'),
-  ('2025-06-15','Aniversario'),
-  ('2024-06-25','Folga'),
-  ('2025-08-29','Aniversario'),
-  ('2024-04-13','Almoço'),
-  ('2024-06-12','Almoço');
-INSERT INTO calendariodeeventos (data,tipo)
+  ('2024-11-05','Workshop','Opcional'),
+  ('2025-04-14','Team-Building','Obrigatória'),
+  ('2025-02-20','Mesa-Redonda','Obrigatória'),
+  ('2023-11-11','Festa-de-Confraternizacao','Obrigatória'),
+  ('2023-10-28','Comemoracao-de-Aniversario','Obrigatória'),
+  ('2024-12-05','Palestra','Opcional'),
+  ('2024-10-23','Comemoracao-de-Aniversario','Opcional'),
+  ('2024-02-21','Conferencia','Opcional'),
+  ('2025-09-19','Mesa-Redonda','Opcional'),
+  ('2024-04-23','Palestra','Opcional');
+INSERT INTO calendariodeeventos (data,tipo,convocacao)
 VALUES
-  ('2025-08-04','Jantar'),
-  ('2025-07-07','Reuniao'),
-  ('2023-10-05','Esporte'),
-  ('2024-06-12','Lanche'),
-  ('2025-08-20','Esporte'),
-  ('2025-03-18','Folga'),
-  ('2025-03-03','Aniversario'),
-  ('2024-12-27','Jantar'),
-  ('2025-06-02','Folga'),
-  ('2024-05-20','Folga');
-INSERT INTO calendariodeeventos (data,tipo)
+  ('2025-08-02','Conferencia','Obrigatória'),
+  ('2025-05-09','Palestra','Opcional'),
+  ('2024-03-19','Treinamento','Opcional'),
+  ('2024-08-21','Hackathon','Obrigatória'),
+  ('2023-11-08','Conferencia','Opcional'),
+  ('2023-12-28','Lancamento-de-Produto','Obrigatória'),
+  ('2025-09-11','Conferencia','Opcional'),
+  ('2023-11-25','Comemoracao-de-Aniversario','Obrigatória'),
+  ('2025-05-01','Mesa-Redonda','Obrigatória'),
+  ('2025-05-29','Lancamento-de-Produto','Obrigatória');
+INSERT INTO calendariodeeventos (data,tipo,convocacao)
 VALUES
-  ('2024-05-12','Esporte'),
-  ('2024-02-02','Reuniao'),
-  ('2025-01-26','Lanche'),
-  ('2023-11-29','Folga'),
-  ('2025-05-26','Almoço'),
-  ('2024-09-02','Reuniao'),
-  ('2024-04-05','Almoço'),
-  ('2024-02-27','Aniversario'),
-  ('2024-11-15','Lanche'),
-  ('2024-02-28','Aniversario');
-INSERT INTO calendariodeeventos (data,tipo)
+  ('2025-06-10','Entrevista','Obrigatória'),
+  ('2024-07-03','Sessao-de-Planejamento','Obrigatória'),
+  ('2024-11-17','Sessao-de-Feedback','Obrigatória'),
+  ('2023-09-27','Team-Building','Opcional'),
+  ('2023-10-20','Seminario','Opcional'),
+  ('2024-09-27','Sessao-de-Planejamento','Obrigatória'),
+  ('2025-05-28','Webinar','Obrigatória'),
+  ('2023-10-23','Mesa-Redonda','Obrigatória'),
+  ('2024-12-10','Webinar','Obrigatória'),
+  ('2024-02-05','Reuniao-de-Status','Obrigatória');
+INSERT INTO calendariodeeventos (data,tipo,convocacao)
 VALUES
-  ('2024-12-23','Reuniao'),
-  ('2025-07-10','Jantar'),
-  ('2025-04-25','Folga'),
-  ('2025-06-07','Almoço'),
-  ('2025-04-24','Aniversario'),
-  ('2025-07-27','Aniversario'),
-  ('2024-09-30','Aniversario'),
-  ('2024-06-09','Jantar'),
-  ('2023-12-09','Lanche'),
-  ('2024-01-25','Aniversario');
+  ('2024-06-12','Networking','Opcional'),
+  ('2024-04-11','Seminario','Opcional'),
+  ('2025-06-01','Team-Building','Obrigatória'),
+  ('2025-04-13','Sessao-de-Feedback','Opcional'),
+  ('2025-03-11','Sessao-de-Feedback','Opcional'),
+  ('2025-08-01','Reuniao-de-Status','Opcional'),
+  ('2023-10-31','Seminario','Obrigatória'),
+  ('2025-02-21','Webinar','Opcional'),
+  ('2025-09-22','Networking','Obrigatória'),
+  ('2025-07-10','Festa-de-Confraternizacao','Obrigatória');
