@@ -8,6 +8,6 @@ Produtos: Gerencia o estoque de produtos da empresa, armazenando o nome do produ
 
 Fornecedores: Controla os fornecedores da empresa, com informações sobre o nome da empresa fornecedora, a categoria de produtos ou serviços fornecidos e a validade do contrato. O sistema deverá alertar sobre contratos que estejam próximos do vencimento e registrar novas parcerias ou renovações.
 
-Calendário de Eventos: Registra eventos importantes da empresa, como reuniões, treinamentos e comemorações. Cada evento possui uma data, um tipo (por exemplo, reunião, workshop, etc.) e uma indicação se a participação é obrigatória ou opcional. O sistema também será capaz de enviar notificações de eventos obrigatórios para os funcionários envolvidos.
+Calendário de Eventos: Registra eventos importantes da empresa, como reuniões, treinamentos e comemorações. Cada evento possui uma data, um tipo (por exemplo, reunião, workshop, etc.) e uma indicação se a participação é obrigatória ou opcional.
 
 Este sistema tem como objetivo centralizar e otimizar a gestão de informações da empresa, promovendo a eficiência na administração de pessoal, estoque, contratos e eventos corporativos.
