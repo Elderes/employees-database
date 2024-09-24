@@ -1,1 +1,1 @@
-postgresql://postgres:%40Abrao337@localhost:5432/empresa-gerenciador
+jdbc:postgresql://localhost:5432/postgres
