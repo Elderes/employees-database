@@ -27,3 +27,12 @@ SELECT categoria, COUNT(*) AS quantidade FROM produto GROUP BY categoria;
 
 -- Média salarial por cargo
 SELECT cargo, ROUND(AVG(salario), 2) AS media_salarial_cargo FROM funcionario GROUP BY cargo;
+
+
+-- Criando index que melhore o desempenho na consulta número 7 usando 'categoria' como âncora
+CREATE INDEX idx_produto_categoria ON produto(categoria)
+
+-- Exemplo de uso
+EXPLAIN SELECT f.nome, p.categoria FROM produto p INNER JOIN fornecedor f ON p.fornecedor_id = f.id WHERE f.categoria_fornecida = 'Militar';
+
+- Não encontrei nenhum caso que o Postgres prefira usar o index porque a base de dados é pequena e seria ineficiente, mas entendi o uso e sua aplicabilidade.
